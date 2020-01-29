@@ -1,0 +1,83 @@
+#biblz
+install.packages("haven", dependencies = T)
+library(haven)
+library(psych)
+
+#uvodjenje matrice
+
+matrica <- read_spss(file.choose())
+#check
+colnames(matrica)
+
+#sumacioni i alfa
+
+#agresivnost
+ajtemi_agr <- subset(matrica, select=c("vp_14", "vp_25", "vp_29", "vp_31", "vp_35",
+                                       "vp_41", "vp_42", "vp_47", "vp_50", "vp_67")) 
+  #check
+  colnames(ajtemi_agr)
+    dataFrame_agr<-data.frame(ajtemi_agr)
+      #alfa
+      alpha(dataFrame_agr, check.keys = T)
+
+#ekstraverzija
+ajtemi_eks <- subset(matrica, select=c("vp_4", "vp_15", "vp_18", "vp_38", "vp_43", 
+                                       "vp_51", "vp_55", "vp_57", "vp_64", "vp_70")) 
+  #check
+  colnames(ajtemi_eks)
+    dataFrame_eks<-data.frame(ajtemi_eks)
+      #alfa
+      alpha(dataFrame_eks, check.keys = T)
+
+
+
+#neuroticizam
+ajtemi_neu <- subset(matrica, select=c("vp_6", "vp_17", "vp_27", "vp_30","vp_32",
+                                       "vp_34", "vp_46", "vp_56", "vp_61", "vp_69")) 
+  #check
+  colnames(ajtemi_neu)
+    dataFrame_neu<-data.frame(ajtemi_neu)
+      #alfa
+      alpha(dataFrame_neu, check.keys = T)
+
+
+#negativna valenca
+ajtemi_nv <- subset(matrica, select=c("vp_2", "vp_8", "vp_10", "vp_11", "vp_19",
+                                      "vp_23", "vp_37", "vp_48", "vp_62", "vp_65")) 
+  #check
+  colnames(ajtemi_nv)
+    dataFrame_nv<-data.frame(ajtemi_nv)
+      #alfa
+      alpha(dataFrame_nv, check.keys = T)
+      
+      
+#otvorenost
+ajtemi_otv <- subset(matrica, select=c("vp_3", "vp_12", "vp_20", "vp_44", "vp_49",
+                                       "vp_52", "vp_53", "vp_58", "vp_60", "vp_63")) 
+  #check
+  colnames(ajtemi_otv)
+    dataFrame_otv<-data.frame(ajtemi_otv)
+      #alfa
+      alpha(dataFrame_otv, check.keys = T)
+
+      
+#pozitivna valenca
+ajtemi_pv <- subset(matrica, select=c("vp_5", "vp_9", "vp_13", "vp_16", "vp_21",
+                                      "vp_52", "vp_53", "vp_58", "vp_60", "vp_63")) 
+  #check
+  colnames(ajtemi_pv)
+    dataFrame_pv<-data.frame(ajtemi_pv)
+      #alfa
+      alpha(dataFrame_pv, check.keys = T)
+
+
+#savesnost      
+ajtemi_sav <- subset(matrica, select=c( "vp_1", "vp_7", "vp_22", "vp_24", "vp_28",
+                                        "vp_33", "vp_36", "vp_40", "vp_59", "vp_66")) 
+  #check
+  colnames(ajtemi_sav)
+    dataFrame_sav<-data.frame(ajtemi_sav)
+      #alfa
+      alpha(dataFrame_sav, check.keys = T)
+
+
