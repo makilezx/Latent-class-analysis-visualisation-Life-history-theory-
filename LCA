@@ -8,7 +8,7 @@ library(haven)
 
     colnames(fajl_ksf)  
       
-      ksf_only <- subset(fajl_ksf, select=c(339:345)) 
+      ksf_only <- subset(fajl_ksf, select=c(316:322)) 
       #mhm, "KSF" i dodati staru srpsku rec "only" i eto objekta
       
           colnames(ksf_only)
