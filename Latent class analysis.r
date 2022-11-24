@@ -4,12 +4,10 @@
 install.packages("haven", dependencies = T)
 library(haven)
 
-  fajl_ksf <- read_spss(file.choose()) #recimo da nisam previse inovativan kad treba imenovati objekat
-
+  fajl_ksf <- read_spss(file.choose())
     colnames(fajl_ksf)  
       
       ksf_only <- subset(fajl_ksf, select=c(316:322)) 
-      #mhm, "KSF" i dodati staru srpsku rec "only" i eto objekta
       
           colnames(ksf_only)
           
@@ -25,13 +23,13 @@ library(mclust)
   
   obj_LCA <- dplyr::select(ksf_only, 1:7) 
   
-    BIC = mclustBIC(obj_LCA, G=1:9) # G tells it how many latent classes to try 
-    plot(BIC) # different lines represent different assumptions about the covariance structure
-    summary(BIC) # the best models
+    BIC = mclustBIC(obj_LCA, G=1:9) 
+    plot(BIC) #different lines represent different assumptions about the covariance structure
+    summary(BIC) #the best models
     
     mod1 = Mclust(ksf_only, 
-                  G=1:9, # the number of latent classes to try (it will select the best one)
-                  x = BIC) # giving it this BIC object we made before means it won't have to recalculate it
+                  G=1:9, #the number of latent classes to try (it will select the best one)
+                  x = BIC) #giving it this BIC object we made before means it won't have to recalculate it
     summary(mod1, parameters = TRUE)
           
             
