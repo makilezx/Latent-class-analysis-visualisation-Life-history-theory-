@@ -1,6 +1,3 @@
-
-#malo igre u R-u sa mclustom
-
 install.packages("haven", dependencies = T)
 library(haven)
 
