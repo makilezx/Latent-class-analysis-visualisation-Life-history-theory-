@@ -1,4 +1,4 @@
-# Latent class analysis & visualisation [Life history theory]
+# Latent class analysis & visualisation [K-SF-42 questionnaire; Life history theory]
 
 K-SF-42 is a questionnaire developed as the psychometric operationalisation of Life history theory.
 
