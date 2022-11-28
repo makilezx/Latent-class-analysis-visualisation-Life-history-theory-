@@ -1,32 +1,24 @@
 install.packages("haven", dependencies = T)
-library(haven)
-
-  fajl_ksf <- read_spss(file.choose())
-    colnames(fajl_ksf)  
-      
-      ksf_only <- subset(fajl_ksf, select=c(316:322)) 
-      
-          colnames(ksf_only)
-          
-          library(psych)
-          describe(ksf_only)
-
-install.packages("dplyr", dependencies = T)
-library(dplyr)          
 install.packages("mclust", dependencies = T)
-library(mclust)
-  .libPaths()
+install.packages("dplyr", dependencies = T)
 
-  
-  obj_LCA <- dplyr::select(ksf_only, 1:7) 
-  
-    BIC = mclustBIC(obj_LCA, G=1:9) 
-    plot(BIC) #different lines represent different assumptions about the covariance structure
-    summary(BIC) #the best models
-    
-    mod1 = Mclust(ksf_only, 
-                  G=1:9, #the number of latent classes to try (it will select the best one)
-                  x = BIC) #giving it this BIC object we made before means it won't have to recalculate it
-    summary(mod1, parameters = TRUE)
-          
-            
+library(haven)
+library(dplyr)          
+library(mclust)
+
+colnames(dataset)
+LHT.sum <- subset(dataset, select = c(316:322))
+
+colnames(LHT.sum)
+describe(LHT.sum)
+
+
+LHT.sum.mclust. <- Mclust(LHT.sum, g = 1:9)
+summary(LHT.sum.mclust.)
+LHT.sum.mclust.$bic
+LHT.sum.mclust.$parameters
+LHT.sum.mclust.$classification
+
+matrica.sum.klase.LHT <- cbind(LHT.std, LHT.sum.mclust.$classification)
+colnames(matrica.sum.klase.LHT)
+describe.by(matrica.sum.klase.LHT, group = LHT.sum.mclust.$classification)
