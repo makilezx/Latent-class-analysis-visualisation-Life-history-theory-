@@ -9,5 +9,5 @@ Furthermore, the *predictive power* of personality types (versus personalit dime
 Overall, analyses are carried out using R, and visualisations using Python (matplotlib; pictures 2, 3).  Tableau was used for additional visualisation of clustering (picture 1).
 
 
-![Picture1]([https://user-images.githubusercontent.com/50851469/118858148-1a161180-b8d9-11eb-9a55-6a988cfcc544.png](https://i.postimg.cc/3RfmX962/Picture1.png])
+[Picture1]([https://i.postimg.cc/3RfmX962/Picture1.png])
 
