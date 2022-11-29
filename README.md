@@ -11,9 +11,7 @@ Overall, analyses are carried out using R, and visualisations using Python (matp
 ###### Picture 1: clustering
 ![Picture1](https://i.postimg.cc/3RfmX962/Picture1.png)
 
-###### Picture 2 and 3: clustering
-![Picture1](https://i.postimg.cc/PL0CBVsc/Picture2.png)
-
-###### Picture 1: predictive power of personality types vs personality dimensions
-![Picture1](https://i.postimg.cc/v1412Fjf/Picture3.png)
+###### Picture 2 and 3: predictive power of personality types vs personality dimensions
+![Picture2](https://i.postimg.cc/PL0CBVsc/Picture2.png)
+![Picture3](https://i.postimg.cc/v1412Fjf/Picture3.png)
 
