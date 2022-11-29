@@ -4,6 +4,5 @@ K-SF-42 is a questionnaire developed as the psychometric operationalisation of L
 
 R code calculates Cronbach's alpha coefficients over questionnaire scales, followed by latent class analysis (LCA) for identifying different groups (or subtypes) of subjects/cases based on their patterns of answers. Furthermore, the predictive power of personality types is visualized (versus dimensions). 
 
-
-Python (seaborn, matplotlib, pandas) and R are used for analysis and visualisation.  
+R is used for analysis, while Python libraries (seaborn, matplotlib) are applied for visualisation.  
 
