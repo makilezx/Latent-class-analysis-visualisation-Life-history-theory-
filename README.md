@@ -12,6 +12,6 @@ Overall, analyses are carried out using R, and visualisations using Python (matp
 ![Picture1](https://i.postimg.cc/3RfmX962/Picture1.png)
 
 ###### Picture 2 and 3: predictive power of personality types vs personality dimensions
-![Picture2](https://i.postimg.cc/PL0CBVsc/Picture2.png)
-![Picture3](https://i.postimg.cc/v1412Fjf/Picture3.png)
+![Picture3](https://i.postimg.cc/0NfpQ90W/Picture3.png)
+![Picture2](https://i.postimg.cc/vBZ5xCPQ/Picture2.png)
 
