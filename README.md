@@ -1,7 +1,7 @@
 # Latent class analysis & visualisation [K-SF-42 questionnaire; Life history theory]
 
 
-The analyses presented here are based on a scientific study published in 2020, .
+The analyses presented here are based on a scientific study published in 2020.
 
 
 ## Intro
