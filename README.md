@@ -1,6 +1,10 @@
 # Latent class analysis & visualisation [K-SF-42 questionnaire; Life history theory]
 
-K-SF-42 is a questionnaire developed as the psychometric operationalisation of Life history theory.
+## Intro
+
+The recently used framework in the field of psychology of individual differences is Life history theory (LHT). Regardless of its roots (evolutional biology domain), results of previous research showed that LHT dimensions are asociated with numerous psychology constructs, for example, personality traits. The aim of analyses was to examine latent classes in the context of LHT, but also their relations with basic personality traits. Results of the latent class analysis show that 5 classes would be identified based on K-SF-42 scores – *Moderate LHT; High parental relationship quality; Slow LHT; Low parental relationship quality; Slow LHT – low romantic partner attachment quality*.
+
+The analyses presented here are based on a scientific study published in 2020, .
 
 Code calculates Cronbach's alpha coefficients over questionnaire scales, followed by latent class analysis (LCA) for identifying different groups (or subtypes) of subjects/cases based on their patterns of answers. 
 
