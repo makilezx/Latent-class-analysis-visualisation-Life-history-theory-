@@ -16,9 +16,8 @@ Furthermore, the *predictive power* of personality types (versus personality dim
 Overall, analyses are carried out using R, and visualisations using Python (matplotlib; pictures 2, 3).  Tableau was used for additional visualisation of clustering (picture 1).
 
 ###### Picture 1: latent classes extracted by LCA
-![Picture1](https://i.postimg.cc/3RfmX962/Picture1.png)
-
+![Picture1](https://github.com/makilezx/Latent-class-analysis-visualisation-Life-history-theory/assets/50851469/77463bcb-8631-40fc-a2bd-aed9d552b052)
 ###### Picture 2 and 3: predictive power of personality types vs personality dimensions
-![Picture3](https://i.postimg.cc/0NfpQ90W/Picture3.png)
-![Picture2](https://i.postimg.cc/vBZ5xCPQ/Picture2.png)
+![Picture3](https://github.com/makilezx/Latent-class-analysis-visualisation-Life-history-theory/assets/50851469/1bfbd184-0994-41d1-b6a9-47cb1221a42b)
+![Picture2](https://github.com/makilezx/Latent-class-analysis-visualisation-Life-history-theory/assets/50851469/f63f1c01-f030-4f6e-b7fd-095c0e3defb2)
 
