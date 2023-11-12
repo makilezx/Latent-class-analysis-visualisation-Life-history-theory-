@@ -16,7 +16,7 @@ The primary goal of the analyses presented here is to explore latent classes wit
 
 The code performs calculations of Cronbach's alpha coefficients across questionnaire scales, followed by latent class analysis (LCA) to unveil diverse groups or subtypes of subjects based on their response patterns. 
 
-Additionally, the repository visualizes *the predictive power* of personality types versus personality dimensions, employing R for analyses and Python (matplotlib) for visualizations (pictures 2 and 3). 
+Also, the code visualizes *the predictive power* of personality types versus personality dimensions, employing R for analyses and Python (matplotlib) for visualizations (pictures 2 and 3). 
 
 Tableau has been integrated for supplementary visualizations, particularly in illustrating clustering (picture 1). Additional analyses involve MANOVA for a comprehensive understanding of group differences and the Games-Howell test for post hoc examinations.
 
