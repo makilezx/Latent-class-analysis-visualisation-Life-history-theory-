@@ -1,4 +1,4 @@
-# Latent class analysis & visualisation [K-SF-42 questionnaire; Life history theory]
+# Latent class analysis & visualisation [Life history theory and basic personality traits]
 
 
 *Utilizing insights from a 2020. scientific study, this repository delves into the intriguing intersection of Life History Theory (LHT) and the K-SF-42 questionnaire.*
