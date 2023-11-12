@@ -15,9 +15,7 @@ The primary goal of the analyses presented here is to explore latent classes wit
 
 ## Data
 
-Sample consisted of 1049 participants . Of the total number of participants, 61.7% were male, while the age of the participants ranged from 17 to 85 years (M = 38.05; SD = 14.87).
-
-Before analysis, the dataset underwent cleaning and preprocessing. Univariate and multivariate outliers were removed, and missing data were imputed using the Expectation-Maximization (EM) algorithm. Prior to that, Little's test was conducted to ensure the adequacy of the imputation process and the reliability of the dataset for subsequent analyses.
+The sample consisted of 1049 participants. Before analysis, the dataset underwent cleaning and preprocessing. Univariate and multivariate outliers were removed, and missing data were imputed using the Expectation-Maximization (EM) algorithm. Prior to that, Little's test was conducted to ensure the adequacy of the imputation process and the reliability of the dataset for subsequent analyses.
 
 ## Analysis Method
 
