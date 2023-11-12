@@ -1,7 +1,7 @@
 # Latent class analysis & visualisation [K-SF-42 questionnaire; Life history theory]
 
 
-*Utilizing insights from a 2020. scientific study (Oljača & Milošević), this repository delves into the intriguing intersection of Life History Theory (LHT) and the K-SF-42 questionnaire.*
+*Utilizing insights from a 2020. scientific study, this repository delves into the intriguing intersection of Life History Theory (LHT) and the K-SF-42 questionnaire.*
 
 
 ## Introduction
