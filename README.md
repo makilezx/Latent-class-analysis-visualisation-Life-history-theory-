@@ -17,11 +17,11 @@ The primary goal of the analyses presented here is to explore latent classes wit
 
 The sample consisted of 1049 participants. Before analysis, the dataset underwent cleaning and preprocessing. Univariate and multivariate outliers were removed, and missing data were imputed using the Expectation-Maximization (EM) algorithm. Prior to that, Little's test was conducted to ensure the adequacy of the imputation process and the reliability of the dataset for subsequent analyses.
 
-## Analysis Method
+## Analysis 
 
 Summation scores were computed utilizing the R *psych* package. The code also performs calculations of Cronbach's alpha coefficients across questionnaire scales.
 
-Subsequently, the code in this repository utilizes latent class analysis (LCA) to reveal distinct groups or subtypes of subjects based on their response patterns. Within the Latent Class Analysis (LCA), the Bayesian Information Criterion (BIC) suggested a 5-class solution as the most optimal clustering solution. This served as a starting point for a detailed examination, aiming to determine the most suitable solution through cluster analysis and do a comparison. Additionally, the distribution of personality traits within these identified solutions was thoroughly examined and visualized
+Subsequently, the code in this repository utilizes latent class analysis (LCA) to reveal distinct groups or subtypes of subjects based on their response patterns. Within the LCA, the Bayesian Information Criterion (BIC) suggested a 5-class solution as the most optimal clustering solution. This served as a starting point for a detailed examination, aiming to determine the most suitable solution through cluster analysis and to do a comparison. Additionally, the distribution of personality traits within these identified solutions was thoroughly examined and visualized
 
 Additional analyses involve MANOVA to comprehensively understand group differences and the Games-Howell test for post hoc examinations. Also, the code visualizes *the predictive power* of personality types versus personality dimensions, employing Python (matplotlib) for visualizations (pictures 2 and 3). 
 
@@ -29,7 +29,7 @@ Tableau has been integrated for supplementary visualizations, particularly in il
 
 ## Results
 
-Utilizing K-SF-42 questionnaire scores, the latent class analysis (LCA) reveals the identification of five distinct classes: Moderate LHT; High parental relationship quality; *Slow LHT; Low parental relationship quality; Slow LHT – low romantic partner attachment quality*.
+Utilizing LHT scores, the latent class analysis reveals the identification of five distinct classes: *Moderate LHT; High parental relationship quality; Slow LHT; Low parental relationship quality; Slow LHT – low romantic partner attachment quality*.
  
 ###### Picture 1: latent classes extracted by LCA
 ![Picture1](https://github.com/makilezx/Latent-class-analysis-visualisation-Life-history-theory/assets/50851469/77463bcb-8631-40fc-a2bd-aed9d552b052)
