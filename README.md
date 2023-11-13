@@ -21,7 +21,9 @@ The sample consisted of 1049 participants. Before analysis, the dataset underwen
 
 Summation scores were computed utilizing the R *psych* package. The code also performs calculations of Cronbach's alpha coefficients across questionnaire scales.
 
-Subsequently, the code in this repository utilizes latent class analysis (LCA) to reveal distinct groups or subtypes of subjects based on their response patterns.
+Subsequently, the code in this repository utilizes latent class analysis (LCA) to reveal distinct groups or subtypes of subjects based on their response patterns. Within the Latent Class Analysis (LCA), the Bayesian Information Criterion (BIC) suggested a 5-class solution as the most optimal clustering solution[^1].
+
+[^1]: This served as a starting point for a detailed examination, aiming to determine the most suitable solution through cluster analysis and do a comparison. Additionally, the distribution of personality traits within these identified solutions was thoroughly examined and visualized
 
 Additional analyses involve MANOVA to comprehensively understand group differences and the Games-Howell test for post hoc examinations. Also, the code visualizes *the predictive power* of personality types versus personality dimensions, employing R for analyses and Python (matplotlib) for visualizations (pictures 2 and 3). 
 
