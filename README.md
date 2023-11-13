@@ -23,9 +23,8 @@ Summation scores were computed utilizing the R *psych* package. The code also pe
 
 Subsequently, the code in this repository utilizes latent class analysis (LCA) to reveal distinct groups or subtypes of subjects based on their response patterns. Within the LCA, the Bayesian Information Criterion (BIC) suggested a 5-class solution as the most optimal clustering solution. This served as a starting point for a detailed examination, aiming to determine the most suitable solution through cluster analysis and to do a comparison. Additionally, the distribution of personality traits within these identified solutions was thoroughly examined and visualized
 
-Additional analyses involve MANOVA to comprehensively understand group differences and the Games-Howell test for post hoc examinations. Also, the code visualizes *the predictive power* of personality types versus personality dimensions, employing Python (matplotlib) for visualizations (pictures 2 and 3). 
+Tableau has been integrated for supplementary visualizations, particularly in illustrating clustering (picture 1). Also, the code visualizes *the predictive power* of personality types versus personality dimensions, employing Python (matplotlib) for visualizations (pictures 2 and 3). 
 
-Tableau has been integrated for supplementary visualizations, particularly in illustrating clustering (picture 1).
 
 ## Results
 
