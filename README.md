@@ -25,9 +25,9 @@ For general data manipulation in R, the packages `tidyr` and `dplyr` were utiliz
 
 Summation scores were computed utilizing the R `psych` package. The code also performs calculations of Cronbach's alpha coefficients across questionnaire scales.
 
-Subsequently, the R code in this repository employs the `mclust` package to conduct latent class analysis (LCA). This analysis aims to unveil distinct groups or subtypes of subjects by examining their response patterns. Within the LCA, the Bayesian Information Criterion (BIC) suggested a 5-class solution as the most optimal clustering solution, which served as a starting point for a detailed examination.
+The R code in this repository employs the `mclust` package to conduct latent class analysis (LCA). This analysis aims to unveil distinct groups or subtypes of subjects by examining their response patterns. Within the LCA, the Bayesian Information Criterion (BIC) suggested a 5-class solution as the most optimal clustering solution, which served as a starting point for a detailed examination.
 
-In fact, utilizing LHT scores, the latent class analysis reveals the identification of five distinct classes: *Moderate LHT; High parental relationship quality; Slow LHT; Low parental relationship quality; Slow LHT – low romantic partner attachment quality* (Picture 1).
+LCA reveals the identification of five distinct classes: *Moderate LHT; High parental relationship quality; Slow LHT; Low parental relationship quality; Slow LHT – low romantic partner attachment quality* (Picture 1).
 
 Tableau has been integrated for supplementary visualizations, particularly in illustrating isolated classes (Picture 1). The distribution of personality traits within these identified classes was thoroughly examined and visualized using Python libraries `seaborn` and `matplotlib` (Picture 2). 
 
