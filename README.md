@@ -15,15 +15,23 @@ The primary goal of the analyses presented here is to explore latent classes wit
 
 ## Data
 
-The sample consisted of 1049 participants. Before analysis, the dataset underwent cleaning and preprocessing. Univariate and multivariate outliers were removed, and missing data were imputed using the Expectation-Maximization (EM) algorithm. Prior to that, Little's test was conducted to ensure the adequacy of the imputation process and the reliability of the dataset for subsequent analyses.
+The sample consisted of 1049 participants. Before analysis, the dataset underwent cleaning and preprocessing. Univariate and multivariate outliers were removed, and missing data were imputed using the Expectation-Maximization (EM) algorithm within SPSS. Prior to that, Little's test was conducted to ensure the adequacy of the imputation process and the reliability of the dataset for subsequent analyses. 
+
+For general data manipulation in R, the packages `tidyr` and `dplyr` were utilized. Additionally, Python libraries `numpy` and `pandas` were employed intermittently for similar tasks.
 
 ## Analysis 
 
-Summation scores were computed utilizing the R *psych* package. The code also performs calculations of Cronbach's alpha coefficients across questionnaire scales.
+Summation scores were computed utilizing the R `psych` package. The code also performs calculations of Cronbach's alpha coefficients across questionnaire scales.
 
-Subsequently, the code in this repository utilizes latent class analysis (LCA) to reveal distinct groups or subtypes of subjects based on their response patterns. Within the LCA, the Bayesian Information Criterion (BIC) suggested a 5-class solution as the most optimal clustering solution. This served as a starting point for a detailed examination, aiming to determine the most suitable solution through cluster analysis and to do a comparison. Additionally, the distribution of personality traits within these identified solutions was thoroughly examined and visualized
+Subsequently, the R code in this repository employs the `mclust` package to conduct latent class analysis (LCA). This analysis aims to unveil distinct groups or subtypes of subjects by examining their response patterns. Within the LCA, the Bayesian Information Criterion (BIC) suggested a 5-class solution as the most optimal clustering solution, which served as a starting point for a detailed examination.
 
-Tableau has been integrated for supplementary visualizations, particularly in illustrating clustering (picture 1). Also, the code visualizes *the predictive power* of personality types versus personality dimensions, employing Python (matplotlib) for visualizations (pictures 2 and 3). 
+Additionally, cluster analysis is carried out to compare with the primary LCA solution from earlier, driven by curiosity (picture). Visualization comparing LCA and cluster analysis was created using the `factoextra` and `gridExtra` packages (Picture 1)
+
+Tableau has been integrated for supplementary visualizations, particularly in illustrating clustering (Picture 2). 
+
+The distribution of personality traits within these identified solutions was thoroughly examined and visualized using Python libraries `seaborn` and `matplotlib` (Picture 3). 
+
+Also, the code visualizes *the predictive power* of personality types versus personality dimensions, employing Python (`matplotlib`) for visualizations (Pictures 4 and 5). 
 
 
 ## Results
