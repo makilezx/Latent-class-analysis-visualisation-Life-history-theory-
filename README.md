@@ -25,21 +25,24 @@ Summation scores were computed utilizing the R `psych` package. The code also pe
 
 Subsequently, the R code in this repository employs the `mclust` package to conduct latent class analysis (LCA). This analysis aims to unveil distinct groups or subtypes of subjects by examining their response patterns. Within the LCA, the Bayesian Information Criterion (BIC) suggested a 5-class solution as the most optimal clustering solution, which served as a starting point for a detailed examination.
 
-Additionally, cluster analysis is carried out to compare with the primary LCA solution from earlier, driven by curiosity (picture). Visualization comparing LCA and cluster analysis was created using the `factoextra` and `gridExtra` packages (Picture 1)
+In fact, utilizing LHT scores, the latent class analysis reveals the identification of five distinct classes: *Moderate LHT; High parental relationship quality; Slow LHT; Low parental relationship quality; Slow LHT – low romantic partner attachment quality* (Picture 1).
 
-Tableau has been integrated for supplementary visualizations, particularly in illustrating clustering (Picture 2). 
+Tableau has been integrated for supplementary visualizations, particularly in illustrating isolated classes (Picture 1). The distribution of personality traits within these identified classes was thoroughly examined and visualized using Python libraries `seaborn` and `matplotlib` (Picture 2). 
 
-The distribution of personality traits within these identified solutions was thoroughly examined and visualized using Python libraries `seaborn` and `matplotlib` (Picture 3). 
+Additionally, cluster analysis is carried out to compare with the primary LCA solution from earlier, driven by curiosity (picture). Visualization comparing LCA and cluster analysis was created using the `factoextra` and `gridExtra` packages (Picture 2)
 
-Also, the code visualizes *the predictive power* of personality types versus personality dimensions, employing Python (`matplotlib`) for visualizations (Pictures 4 and 5). 
+
+
+Also, the code visualizes *the predictive power* of personality types versus personality dimensions, employing Python (`matplotlib`) for visualizations (Pictures 5 and 6). 
 
 
 ## Results
-
-Utilizing LHT scores, the latent class analysis reveals the identification of five distinct classes: *Moderate LHT; High parental relationship quality; Slow LHT; Low parental relationship quality; Slow LHT – low romantic partner attachment quality*.
- 
-###### Picture 1: latent classes extracted by LCA
+###### Picture 1: Latent classes extracted by LCA
 ![Picture1](https://github.com/makilezx/Latent-class-analysis-visualisation-Life-history-theory/assets/50851469/77463bcb-8631-40fc-a2bd-aed9d552b052)
+
+##### Picture 2: Distribution of personality traits within classes extracted by LCA
+![traitsxclasses](https://github.com/makilezx/Latent-class-analysis-visualisation-Life-history-theory/assets/50851469/36cd57fe-8f54-4c8a-9f21-7babfe8c53ce)
+
 ###### Picture 2 and 3: predictive power of personality types vs personality dimensions
 ![Picture3](https://github.com/makilezx/Latent-class-analysis-visualisation-Life-history-theory/assets/50851469/1bfbd184-0994-41d1-b6a9-47cb1221a42b)
 ![Picture2](https://github.com/makilezx/Latent-class-analysis-visualisation-Life-history-theory/assets/50851469/f63f1c01-f030-4f6e-b7fd-095c0e3defb2)
