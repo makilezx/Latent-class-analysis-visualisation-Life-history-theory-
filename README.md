@@ -25,11 +25,11 @@ For general data manipulation in Python, the libraries numpy and pandas were uti
 
 - The R code in this repository employs the mclust package to conduct latent class analysis (LCA). This analysis aims to unveil distinct groups or subtypes of subjects by examining their response patterns. Within the LCA, the Bayesian Information Criterion (BIC) suggested a 5-class solution as the most optimal clustering solution, which served as a starting point for a detailed examination. LCA reveals the identification of five distinct classes: *Moderate LHT; High parental relationship quality; Slow LHT; Low parental relationship quality; Slow LHT – low romantic partner attachment quality* (Picture 1).
 
-- Tableau has been integrated for supplementary visualizations, particularly in illustrating isolated classes (Picture 1). The distribution of personality traits within these identified classes was thoroughly examined and visualized using Python libraries seaborn and matplotlib (Picture 2). 
+- Tableau has been integrated for supplementary visualizations, particularly in illustrating isolated classes (Picture 1). The distribution of personality traits within these identified classes was examined and visualized using Python libraries seaborn and matplotlib (Picture 2). 
 
-- Additionally, cluster analysis is carried out with Python, just to compare with the primary LCA solution, just driven by curiosity. 
+- In addition, cluster analysis in Python was conducted to compare results with the primary LCA solution, driven purely by curiosity. The code featured in this repository goes beyond initial hierarchical and k-means analyses, incorporating a two-step cross-validation procedure. During this process, the dataset underwent a random split into two subsets. In the first stage, Ward's hierarchical cluster analysis was applied to both subsets, recording cluster centers. Subsequently, in the second stage, k-means clustering was performed for both subsets using the cluster centers previously obtained. Cluster solutions were then compared using Cohen's kappa coefficient. To enhance the reliability of cluster stability estimates, this entire procedure was repeated ten times. Additionally, the process underwent bootstrapping, drawing 1000 samples with replacement from the original dataset.
 
-- Also, the code visualizes *the predictive power* of personality types versus personality dimensions, employing Python (`seaborn`) for visualizations (Pictures 4 and 5). 
+- Also, the code visualizes *the predictive power* of personality types versus personality dimensions, employing Python (seaborn) for visualizations (Pictures 4 and 5). 
 
 
 ## Results
