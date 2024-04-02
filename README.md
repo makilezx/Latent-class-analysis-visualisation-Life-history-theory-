@@ -17,7 +17,7 @@ The primary goal of the analyses presented here is to explore latent classes wit
 
 ## Data
 
-The sample consisted of 1049 participants. Before analysis, the dataset underwent cleaning and preprocessing. Univariate and multivariate outliers were removed, and missing data were imputed using the Expectation-Maximization (EM) algorithm within SPSS. Prior to that, Little's test was conducted to ensure the adequacy of the imputation process and the reliability of the dataset for subsequent analyses. 
+The sample consisted of 1049 participants. Before analysis, the dataset underwent cleaning and preprocessing. Univariate and multivariate outliers were removed, and missing data were imputed using the Expectation-Maximization (EM) algorithm. Prior to that, Little's test was conducted to ensure the adequacy of the imputation process and the reliability of the dataset for subsequent analyses. 
 
 For general data manipulation in Python, the libraries numpy and pandas were utilized. 
 
