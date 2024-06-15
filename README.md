@@ -23,6 +23,10 @@ For general data manipulation in Python, the libraries numpy and pandas were uti
 
 ## Analysis 
 
+### Workflow
+![workflow](https://github.com/makilezx/Latent-class-analysis-vs-clustering-Life-history-theory/assets/50851469/bf226dff-babb-428e-b3ce-b2d5a53b4273)
+
+
 - The R code in this repository employs the mclust package to conduct **latent class analysis (LCA)**. This analysis aims to unveil distinct groups or subtypes of subjects by examining their response patterns. Within the LCA, the Bayesian Information Criterion (BIC) suggested a 5-class solution as the most optimal clustering solution, which served as a starting point for a detailed examination. LCA reveals the identification of five distinct classes: *Moderate LHT; High parental relationship quality; Slow LHT; Low parental relationship quality; Slow LHT – low romantic partner attachment quality* (Picture 1).
 
 - Tableau has been integrated for supplementary visualizations, particularly in **illustrating isolated classes** (Picture 1). The **distribution of personality traits within these identified classes** was examined and visualized using Python libraries seaborn and matplotlib (Picture 2). 
