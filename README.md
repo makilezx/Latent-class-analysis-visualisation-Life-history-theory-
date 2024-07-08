@@ -4,6 +4,8 @@
 <img src="https://github.com/onemarc/tech-icons/blob/main/icons/python-dark.svg" width="50">
 <img src="https://github.com/onemarc/tech-icons/blob/main/icons/numpy-dark.svg" width="50">
 <img src="https://github.com/onemarc/tech-icons/blob/main/icons/pandas-dark.svg" width="50">
+<img src="https://github.com/onemarc/tech-icons/blob/main/icons/seaborn-dark.svg" width="50">
+<img src="https://github.com/onemarc/tech-icons/blob/main/icons/matplotlib-dark.svg" width="50">
 <img src="https://github.com/onemarc/tech-icons/blob/main/icons/tableau-dark.svg" width="50">
 </p></a>
 
