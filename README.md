@@ -1,5 +1,11 @@
 # Latent class analysis & visualization 
 
+<a href="#"><p align="left">
+<img src="https://github.com/onemarc/tech-icons/blob/main/icons/python-dark.svg" width="50">
+<img src="https://github.com/onemarc/tech-icons/blob/main/icons/numpy-dark.svg" width="50">
+<img src="https://github.com/onemarc/tech-icons/blob/main/icons/pandas-dark.svg" width="50">
+<img src="https://github.com/onemarc/tech-icons/blob/main/icons/tableau-dark.svg" width="50">
+</p></a>
 
 Utilizing insights from 2020. scientific study, code in this repository delves into the intriguing intersection of Life History Theory (LHT) and basic personality traits. It provides an in-depth exploration into the manifestation of personality traits within latent classes derived from previously obtained LHT scores. 
 
